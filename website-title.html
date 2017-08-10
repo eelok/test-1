@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/screen-website-title.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/cycle2.js"></script>
+    <script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+<body>
+<header class="section">
+    <!-- start class="container"-->
+    <div class="container">
+        <h1>Website Title</h1>
+        <p>Website slogan included here.</p>
+
+        <!-- <img src="images/BusLeft.png" class="BusTop"> -->
+
+        <span data-toggle-target=".menu-top" class="toggle-btn">MENU</span>
+
+        <div class="menu-top">
+            <ul class="group">
+                <li><a href class="#">Home</a></li>
+                <li><a href class="#">About</a></li>
+                <li><a href class="#">Portfolio</a></li>
+                <li><a href class="#">FAQ</a></li>
+                <li><a href class="#">Links</a></li>
+                <li><a href class="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div> <!-- end class="container"-->
+
+</header>
+
+<div class="content-area"> <!-- start class="content-area"-->
+    <div class="container"> <!-- start class="container"-->
+        <div class="partLeft">
+            <h2>Welcome to the page!</h2>
+
+
+            <div class="boxes">
+                <div class="box-A">
+                    <p>Box-A</p>
+                </div>
+                <div class="box-A">
+                    <p>Box-B</p>
+                </div>
+                <div class="box-A">
+                    <p>Box-C</p>
+                </div>
+                <div class="box-A">
+                    <p>Box-D</p>
+                </div>
+            </div>
+
+            <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+
+                <span class="cycle-prev">&laquo;</span>
+                <span class="cycle-next">&raquo;</span>
+                <span class="cycle-pager"></span>
+
+                <div class="slide">
+                    <img src="images/bird.jpg">
+                    <div class="slide-text">
+                        <h3>Bird Title Here</h3>
+                        <p>This is the caption of descriptive text. <a href="#" class="btn-A">Call to action!</a></p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="images/fairy.jpg">
+                    <div class="slide-text">
+                        <h3>Fairy Title Here</h3>
+                        <p>This is the caption of descriptive text</p>
+                    </div>
+
+                </div>
+
+                <div class="slide">
+                    <img src="images/squirrel.jpg">
+                    <div class="slide-text">
+                        <h3>Squirrel Title Here</h3>
+                        <p>This is the caption of descriptive text</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main-area">
+                <div>
+                    <h2>Important Text</h2>
+                    <p>Der Klimawandel ist die größte Herausforderung, der sich die Menschheit derzeit stellen muss.
+                        Das massive Verbrennen fossiler Energieträger wie Kohle und Öl macht die Erde zum Treibhaus. Die
+                        Prognose der führenden Klimaexperten: Wenn die Industrie- und Schwellenländer ihren
+                        Treibhausgasausstoß nicht drastisch senken, könnte die Durchschnittstemperatur auf der Erde bis zum
+                        Ende des Jahrhunderts um weitere vier Grad ansteigen.<span data-toggle-target=".full-text" data-toggle-text="Hide the full text..." class="toggle-btn read-more">Read the full text...</span>
+                    </p>
+
+                    <!-- full text-->
+                    <div class="full-text">
+                        <h2>Full Text</h2>
+                        <p><strong>This is the full text.</strong> Durch das Verbrennen fossiler Energieträger (wie zum
+                            Beispiel Kohle und Erdöl) und durch großflächige
+                            Entwaldung wird Kohlendioxid (CO2) in der Atmosphäre angereichert. Land- und Viehwirtschaft
+                            verursachen Gase wie Methan (CH4) und Distickstoffmonoxid (Lachgas, N2O). Kohlendioxid, Methan
+                            und
+                            Lachgas gehören zu den treibhauswirksamen Gasen. Eine Ansammlung dieser Gase in der Atmosphäre
+                            führt
+                            in der Tendenz zu einer Erwärmung der unteren Luftschichten.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="partRight">
+            <div class="main-area">
+                <h2>Sidebar Heading</h2>
+                <p>Sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod.
+                </p>
+
+                <div class="circles">
+                    <div class="circle-A">
+                        <p>c-A</p>
+                    </div>
+                    <div class="circle-A">
+                        <p>c-B</p>
+                    </div>
+                    <div class="circle-A">
+                        <p>c-C</p>
+                    </div>
+                    <div class="circle-A">
+                        <p>c-D</p>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end class="container"-->
+
+    </div>   <!-- end class="content-area"-->
+
+    <footer>
+        <div class="container">
+            <img src="images/BusLeft.png" class="BusBottom">
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="uft=8">
+    <title>Arabian Fairy Tales</title>
+    <link rel="stylesheet" href="css/Arabia-screen.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/cycle2.js"></script>
+    <script type="text/javascript" src="js/declarativeToggle.js"></script>
+</head>
+
+<body>
+
+
+    <header class="section">
+        <div class="container">
+            <h1>Arabian Fairy Tales</h1>
+
+            <span data-toggle-target=".menu-bar" class="toggle-btn">MENU:</span>
+
+            <div class="menu-bar">
+                <ul class="group">
+                    <li><a href="#">Home.</a></li>
+                    <li><a href="#">About.</a></li>
+                    <li><a href="#">FAQs.</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-area">
+        <div class="container">
+
+            <div class="main-area">
+
+                <p>Arabian Fairy Tales have a rich history. Children like to read especially:</p>
+
+                <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+                    <span class="cycle-prev">&laquo;</span>
+                    <span class="cycle-next">&raquo;</span>
+                    <span class="cycle-pager"></span>
+
+                    <div class="slide">
+                        <img src="images/bird.jpg">
+                        <div class="slide-text">
+                            <h3>Here is a Title of the Slide Bird</h3>
+                            <p>here is description of the slide bird <a class="btn-B">Action B-Button</a></p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/squirrel.jpg">
+                        <div class="slide-text">
+                            <h3>Here is a Title of the Slide Frog</h3>
+                            <p>here is description of the slide frog</p>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/fairy.jpg">
+                        <div class="slide-text">
+                            <h3>Here is a Title of the Slide fairy</h3>
+                            <p>here is description of the slide fairy</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="story">
+
+                        <h2>Important Text</h2>
+                        <p>This ist a very important information. Simply put, Information Architecture is the structure of all the
+                            information in your app or website. When we put care into the arrangement of information, we can make it
+                            easier to understand and navigate. It’s similar to how a writer starts with an outline before they write a
+                            story, or how an architect starts with a blueprint before they choose paint colors.
+                            <span data-toggle-target=".full-text" data-toggle-text="Hide the full text..." class="toggle-btn read-more">Read the full text...</span></p>
+                        <div class="full-text">
+                            <h2>Full Text</h2>
+                            <p><strong>This ist the full text</strong>, In essence, any digital product, website, or app is simply a
+                                collection of information. The practice of Information Architecture involves arranging this information
+                                in a way that is easy to understand, and
+                                can be scaled as the app or website grows (as you add features, for example).
+                                An app or website that has good Information Architecture is structurally sound. It’s very much like a
+                                building. If we’re deliberate about what the important pillars are, and we start there, we have a solid
+                                foundation. When we have a solid foundation, we can continue to build without things getting too shaky.
+                            </p>
+                        </div>
+                    </div>
+                        <p>Let’s take Spotify as an example. We can deconstruct the UI to reveal the underlying Information
+                        Architecture.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2014 - This is the footer.</p>
+    </footer>
+
+
+</body>
+</html>
+
